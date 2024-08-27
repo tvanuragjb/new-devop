@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: tvanurag-eta-deploy
   labels:
-    app: ltvanurag-eta-app
+    app: tvanurag-eta-app
 spec:
   replicas: 3
   selector:
